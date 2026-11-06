@@ -98,7 +98,7 @@
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	# Default: 60
 	# Range: > 5
-	kineticValidationFrequency = 60
+	kineticValidationFrequency = 100
 	#.
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	# Default: 0.009999999776482582
@@ -142,7 +142,7 @@
 		#Game ticks between Fans checking for anything blocking their air flow.
 		# Default: 30
 		# Range: > 10
-		fanBlockCheckRate = 30
+		fanBlockCheckRate = 40
 		#.
 		#[in Revolutions per Minute]
 		#Rotation speed at which the maximum stats of fans are reached.
@@ -162,27 +162,27 @@
 		#Maximum amount of blocks in a structure movable by Pistons, Bearings or other means.
 		# Default: 2048
 		# Range: > 1
-		maxBlocksMoved = 2048
+		maxBlocksMoved = 1024
 		#.
 		#Maximum value of a chassis attachment range.
 		# Default: 16
 		# Range: > 1
-		maxChassisRange = 16
+		maxChassisRange = 12
 		#.
 		#Maximum amount of extension poles behind a Mechanical Piston.
 		# Default: 64
 		# Range: > 1
-		maxPistonPoles = 64
+		maxPistonPoles = 32
 		#.
 		#Max length of rope available off a Rope Pulley.
 		# Default: 384
 		# Range: > 1
-		maxRopeLength = 384
+		maxRopeLength = 192
 		#.
 		#Maximum allowed distance of two coupled minecarts.
 		# Default: 32
 		# Range: > 1
-		maxCartCouplingLength = 32
+		maxCartCouplingLength = 20
 		#.
 		#Maximum depth of blocks filled in using a Mechanical Roller.
 		# Default: 12
@@ -417,17 +417,17 @@
 	#Maximum possible range in blocks of redstone link connections.
 	# Default: 256
 	# Range: > 1
-	linkRange = 256
+	linkRange = 192
 	#.
 	#Maximum possible distance in blocks between display links and their target.
 	# Default: 64
 	# Range: > 1
-	displayLinkRange = 64
+	displayLinkRange = 48
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	# Default: 20
 	# Range: 1 ~ 2048
-	vaultCapacity = 20
+	vaultCapacity = 10
 	#.
 	#The amount of packages a chain conveyor can carry at a time.
 	# Default: 20
@@ -442,7 +442,7 @@
 	#The amount of ticks a factory gauge waits between requests.
 	# Default: 100
 	# Range: > 5
-	factoryGaugeTimer = 100
+	factoryGaugeTimer = 150
 	#.
 	#Whether hostile mobs walking near a seat will start riding it.
 	seatHostileMobs = true
@@ -458,13 +458,13 @@
 	#The amount of Schematics a player can upload until previous ones are overwritten.
 	# Default: 10
 	# Range: > 1
-	maxSchematics = 10
+	maxSchematics = 5
 	#.
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 128
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -484,7 +484,7 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 10
+		schematicannonDelay = 3
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
@@ -547,12 +547,12 @@
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
 	# Range: 5 ~ 512
-	maxAssemblyLength = 128
+	maxAssemblyLength = 96
 	#.
 	#Maximum amount of bogeys assembled as a single Train.
 	# Default: 20
 	# Range: 1 ~ 200
-	maxBogeyCount = 20
+	maxBogeyCount = 12
 	#.
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
